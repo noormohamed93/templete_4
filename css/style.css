@@ -1,0 +1,134 @@
+ /*normalize*/
+*{
+    padding:0;
+    margin: 0;
+}
+ /*start of navbar*/
+ .navbar{
+     background-color: blueviolet;
+     padding: 10px;
+ }
+ .navbar ul li img{ 
+     width: 20px;
+     height: 30px;
+ }
+ .navbar ul li{
+     display: inline-block;
+     margin-left: 20px;
+ }
+ .navbar ul li a{
+     text-decoration: none;
+     color: #fff;
+ }
+ /*end of navbar*/
+ /*start of hero*/
+ .hero{
+     height: 90vh;
+     background-image: url(../images/2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+  /*end of hero*/
+  /* staet of heading*/
+.heading{
+    text-align: center;
+    font-size: 90px;
+}
+/* end of heading*/
+/*start of div1*/
+.div1 p{
+    background-color: burlywood;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+    opacity: .5;
+}
+/*end of div1*/
+/*start of div2*/
+.div2 { 
+    background-color:rgb(236, 104, 208);
+    margin:10px 90px;
+    padding:30px 50px;
+    display: inline-block;
+    width:255px;
+}
+.div2 .lol{
+    text-decoration: underline;
+    text-indent: 10px;
+    text-align: justify;
+    text-transform: capitalize;
+    font-style:italic ;
+}
+/*end of div2*/
+/*div3*/
+.div3 {
+    background-color: rgb(157, 185, 236); 
+    padding:30px 50px;
+    margin-left:190px;
+    width:255px;
+}
+.div3 .noon{
+    text-decoration: overline;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.oo{
+    color:white;
+    background-color: rgb(49, 49, 179);
+    padding: 10px 20px;
+    margin: 10px 40px;
+    border-radius: 7%;
+    margin-bottom:40px;
+}
+/*end of div3*/
+/*div4*/
+.div4 {
+    margin:10px 200px;
+    border-width: 20px 20px 30px 20px;
+    border-color:darkorchid;
+    border-style: solid;
+}
+ .moon{
+    background-color: darkorchid;
+}
+.div4 ul {
+    background-color: cyan ;
+   display:block;
+   padding: 20px 90px;
+}
+.ul2{
+    list-style-type:decimal;
+}
+.list{
+    background-color: darkgrey;
+    margin-top: 10px;
+}
+
+/*end of div4*/
+/*div5*/
+.div5 .x5{
+  background-color: rgb(241, 229, 160);
+    display: inline-block;
+    margin-left:600px;
+    padding:20px 35px;
+}
+th,td{
+    border:2px solid black;
+    padding: 20px;
+   
+}
+table{
+    border-collapse: collapse;
+    background-color: rgb(241, 229, 160);
+    margin-left:600px;
+}
+.pro{
+    background-color: indigo;
+}
+.loo{
+    background-color: cyan ;
+}
+tbody tr :hover{
+    color: khaki;
+}
+/*end of div5*/
